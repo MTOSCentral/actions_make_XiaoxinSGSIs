@@ -43,13 +43,14 @@ jobs:
            
        - name: Download XiaoxinSGSIs Tools
          run: |
-          git clone https://github.com/xiaoxindada/SGSI-build-tool
+          mkdir SGSI-build-tool
+          git clone https://github.com/xiaoxindada/SGSI-build-tool SGSI-build-tool/10
            
        - name: Initialization environment
          run: |
-           sudo rm -rf SGSI-build-tool/setup.sh
-           sudo mv bin/setup.sh SGSI-build-tool/
-           cd SGSI-build-tool/
+           sudo rm -rf SGSI-build-tool/10/setup.sh
+           sudo mv bin/setup.sh SGSI-build-tool/10/
+           cd SGSI-build-tool/10/
            sudo bash setup.sh
            
        - name: Download Rom
