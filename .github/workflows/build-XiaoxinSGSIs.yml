@@ -50,7 +50,7 @@ jobs:
          run: |
            sudo rm -rf SGSI-build-tool/10/setup.sh
            sudo mv bin/setup.sh SGSI-build-tool/10/
-           sudo cp bin/ SGSI-build-tool/10/bin/
+           sudo cp -r bin/ SGSI-build-tool/10/bin/
            cd SGSI-build-tool/10/
            sudo bash setup.sh
            
