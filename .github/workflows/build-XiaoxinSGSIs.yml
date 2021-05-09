@@ -54,10 +54,6 @@ jobs:
            
        - name: Download Rom
          run: |
-          mkdir tmp
-          cd tmp
-          mkdir ${{ steps.var.outputs.rom_url }}
-          cd ../../
           sudo wget -c ${{ steps.var.outputs.rom_url }} -O SGSI-build-tool/10/tmp/${{ steps.var.outputs.rom_name }}
        
        - name: Build Super SGSI
