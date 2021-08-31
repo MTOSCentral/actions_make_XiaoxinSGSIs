@@ -1,10 +1,7 @@
 {
-  "rom_url": "https://hugeota.d.miui.com/20.9.4/miui_MI8SE_20.9.4_8b18fec4c4_10.0.zip",
-  "rom_name": "miui_MI8SE_20.9.4_8b18fec4c4_10.0.zip.zip",
+  "rom_url": "https://hugeota.d.miui.com/V12.5.8.0.RKYCNXM/miui_ELISH_V12.5.8.0.RKYCNXM_50bc6c4665_11.0.zip",
+  "rom_name": "miui_ELISH_V12.5.8.0.RKYCNXM_50bc6c4665_11.0.zip.zip",
   "pack_sgsi": "XiaoxinSGSIs_Pinkdoge.7z",
-  "rom_url": "https://mgb1.androidfilehost.com/dl/KWfFaYDYjbmzqmUygkG7SA/1620638099/2188818919693771752/xiaomi.eu_multi_HMK30Pro_21.3.25_v12-11.zip",
-  "rom_name": "miui12.5.zip",
-  "pack_sgsi": "xiaomieu_miui12.5_beryllium.7z",
   "make_miui": true,
   "make_flyme": false,
   "make_coloros": false,
